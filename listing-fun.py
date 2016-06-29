@@ -26,3 +26,15 @@ Locations = {'AMS': 'Amsterdam', 'BOS': 'Boston', 'LAX': 'Los Angeles', 'SEA': '
 
 for loc in Locations:
 	print ("Location ID: "+loc+" is "+Locations[loc])
+
+
+print "Alright let's now use the dict () functions...."
+
+Airports = dict( AMS="Amsterdam", LHR="London", ORD="Chicago", MSP="Minneapolis-St.Paul")
+
+for ap in Airports:
+	print (ap+" "+Airports[ap])
+	
+	
+
+	
